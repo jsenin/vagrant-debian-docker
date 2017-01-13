@@ -72,5 +72,6 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "shell", path: "docker-provision.sh"
   config.vm.provision "shell", path: "docker-compose-provision.sh"
+  config.vm.provision "shell", path: "sysdig-provision.sh"
 
 end
