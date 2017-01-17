@@ -6,7 +6,7 @@ It's a simple vagrantfile config with Debian and provisioned with docker and doc
 
 ## Install
 ```
-apt-get install vagrant VirtualBox
+sudo apt-get install -y vagrant VirtualBox
 git clone https://github.com/jsenin/vagrant-debian-docker/
 vagrant up
 ```
