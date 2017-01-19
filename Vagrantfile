@@ -10,6 +10,9 @@ Vagrant.configure(2) do |config|
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
+  # allow to ssh forward agent like ssh -A
+  config.ssh.forward_agent = true
+
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "debian/contrib-jessie64"
